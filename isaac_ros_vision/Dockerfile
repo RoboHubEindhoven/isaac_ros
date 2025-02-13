@@ -1,6 +1,6 @@
 ARG ROS_DISTRO=humble
 
-FROM nvcr.io/nvidia/isaac/ros:x86_64-ros2_humble_e46da4110307fe0d4de2a3060b8e9ba8
+FROM nvcr.io/nvidia/isaac/ros:x86_64-ros2_humble_fee5f9c265450387b24773f01fa3b017
 ENV ROS_DISTRO=${ROS_DISTRO}
 SHELL ["/bin/bash", "-c"]
 
